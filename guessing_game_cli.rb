@@ -3,6 +3,10 @@ random
 user_prompt
 if input == random_number
   puts "You guessed the correct number!"
+  elsif input == "exit"
+  puts "Goodbye!"
+  else
+  puts "Sorry! The computer guessed #{random_number}."
 end
 
 def random
